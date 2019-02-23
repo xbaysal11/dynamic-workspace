@@ -1,13 +1,16 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #1e003d;
   height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/bg.gif");
+  background-size: cover;
   .App {
     .clock {
+      text-align: center;
       color: #dcc6e0;
-      font-size: 12em;
-      // margin: 20% auto;
+      font-size: 14em;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     }
   }
 }
