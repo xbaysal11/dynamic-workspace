@@ -10,7 +10,16 @@ body {
       text-align: center;
       color: #dcc6e0;
       font-size: 14em;
-      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      @keyframes color {
+        to {
+          color: #e74c3c;
+        }
+      }
+      animation-name: color;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
     }
   }
 }
