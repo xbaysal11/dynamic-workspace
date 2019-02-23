@@ -2,4 +2,12 @@ body {
   margin: 0;
   padding: 0;
   background-color: #1e003d;
+  height: 100vh;
+  .App {
+    .clock {
+      color: #dcc6e0;
+      font-size: 12em;
+      // margin: 20% auto;
+    }
+  }
 }
